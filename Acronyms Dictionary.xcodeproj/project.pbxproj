@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE4DEEB8289E54DC00134902 /* AcronymsDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4DEEB7289E54DC00134902 /* AcronymsDataFetcher.swift */; };
+		AE4DEEBB289E565100134902 /* AcronymsDataAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4DEEBA289E565100134902 /* AcronymsDataAPI.swift */; };
+		AE4DEEBD289E59F400134902 /* FetchAcronymsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4DEEBC289E59F400134902 /* FetchAcronymsModel.swift */; };
+		AE4DEEBF289E5FCF00134902 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4DEEBE289E5FCF00134902 /* Parser.swift */; };
+		AE4DEEC1289E603600134902 /* AcronymDataError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4DEEC0289E603600134902 /* AcronymDataError.swift */; };
+		AE4DEEC3289E627700134902 /* FullFormMeaningsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4DEEC2289E627700134902 /* FullFormMeaningsViewModel.swift */; };
+		AE4DEEC5289E64C800134902 /* AcronymMeaningRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4DEEC4289E64C800134902 /* AcronymMeaningRowView.swift */; };
+		AE4DEEC7289E6BFA00134902 /* FetchAcronymsRowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4DEEC6289E6BFA00134902 /* FetchAcronymsRowViewModel.swift */; };
+		AE4DEEC9289E9CD100134902 /* FetchAcronymsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4DEEBC289E59F400134902 /* FetchAcronymsModel.swift */; };
+		AE4DEECB289E9CE100134902 /* AcronymsDataAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4DEEBA289E565100134902 /* AcronymsDataAPI.swift */; };
+		AE4DEECC289E9CE400134902 /* AcronymDataError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4DEEC0289E603600134902 /* AcronymDataError.swift */; };
+		AE4DEED0289EAECD00134902 /* AcronymsMockResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = AE4DEECD289EAA9D00134902 /* AcronymsMockResponse.json */; };
+		AE4DEED2289EB33700134902 /* NetworkState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4DEED1289EB33700134902 /* NetworkState.swift */; };
+		AE9B3919289E50B500194E49 /* Acronyms_DictionaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9B3918289E50B500194E49 /* Acronyms_DictionaryApp.swift */; };
+		AE9B391B289E50B500194E49 /* FullFormMeaningsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9B391A289E50B500194E49 /* FullFormMeaningsView.swift */; };
+		AE9B391D289E50B700194E49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE9B391C289E50B700194E49 /* Assets.xcassets */; };
+		AE9B3920289E50B700194E49 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE9B391F289E50B700194E49 /* Preview Assets.xcassets */; };
+		AE9B392A289E50B700194E49 /* Acronyms_DictionaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9B3929289E50B700194E49 /* Acronyms_DictionaryTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE9B3926289E50B700194E49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE9B390D289E50B500194E49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE9B3914289E50B500194E49;
+			remoteInfo = "Acronyms Dictionary";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE4DEEB7289E54DC00134902 /* AcronymsDataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcronymsDataFetcher.swift; sourceTree = "<group>"; };
+		AE4DEEBA289E565100134902 /* AcronymsDataAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcronymsDataAPI.swift; sourceTree = "<group>"; };
+		AE4DEEBC289E59F400134902 /* FetchAcronymsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchAcronymsModel.swift; sourceTree = "<group>"; };
+		AE4DEEBE289E5FCF00134902 /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		AE4DEEC0289E603600134902 /* AcronymDataError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcronymDataError.swift; sourceTree = "<group>"; };
+		AE4DEEC2289E627700134902 /* FullFormMeaningsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullFormMeaningsViewModel.swift; sourceTree = "<group>"; };
+		AE4DEEC4289E64C800134902 /* AcronymMeaningRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcronymMeaningRowView.swift; sourceTree = "<group>"; };
+		AE4DEEC6289E6BFA00134902 /* FetchAcronymsRowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchAcronymsRowViewModel.swift; sourceTree = "<group>"; };
+		AE4DEEC8289E796500134902 /* Acronyms-Dictionary-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Acronyms-Dictionary-Info.plist"; sourceTree = SOURCE_ROOT; };
+		AE4DEECD289EAA9D00134902 /* AcronymsMockResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = AcronymsMockResponse.json; sourceTree = "<group>"; };
+		AE4DEED1289EB33700134902 /* NetworkState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkState.swift; sourceTree = "<group>"; };
+		AE9B3915289E50B500194E49 /* Acronyms Dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Acronyms Dictionary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE9B3918289E50B500194E49 /* Acronyms_DictionaryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Acronyms_DictionaryApp.swift; sourceTree = "<group>"; };
+		AE9B391A289E50B500194E49 /* FullFormMeaningsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullFormMeaningsView.swift; sourceTree = "<group>"; };
+		AE9B391C289E50B700194E49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE9B391F289E50B700194E49 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AE9B3925289E50B700194E49 /* Acronyms DictionaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Acronyms DictionaryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE9B3929289E50B700194E49 /* Acronyms_DictionaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Acronyms_DictionaryTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE9B3912289E50B500194E49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE9B3922289E50B700194E49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE4DEEAF289E536200134902 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE9B391E289E50B700194E49 /* Preview Content */,
+				AE9B391C289E50B700194E49 /* Assets.xcassets */,
+				AE9B3918289E50B500194E49 /* Acronyms_DictionaryApp.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE4DEEB0289E53CA00134902 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				AE4DEEB7289E54DC00134902 /* AcronymsDataFetcher.swift */,
+				AE4DEEBA289E565100134902 /* AcronymsDataAPI.swift */,
+				AE4DEEC0289E603600134902 /* AcronymDataError.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		AE4DEEB1289E53DF00134902 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				AE4DEEBE289E5FCF00134902 /* Parser.swift */,
+				AE4DEED1289EB33700134902 /* NetworkState.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		AE4DEEB2289E542700134902 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				AE4DEEB3289E543000134902 /* FullFormList */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		AE4DEEB3289E543000134902 /* FullFormList */ = {
+			isa = PBXGroup;
+			children = (
+				AE4DEEB5289E547600134902 /* Models */,
+				AE4DEEB6289E547E00134902 /* Views */,
+				AE4DEEB4289E546B00134902 /* ViewModels */,
+			);
+			path = FullFormList;
+			sourceTree = "<group>";
+		};
+		AE4DEEB4289E546B00134902 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AE4DEEC2289E627700134902 /* FullFormMeaningsViewModel.swift */,
+				AE4DEEC6289E6BFA00134902 /* FetchAcronymsRowViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		AE4DEEB5289E547600134902 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AE4DEEBC289E59F400134902 /* FetchAcronymsModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AE4DEEB6289E547E00134902 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AE9B391A289E50B500194E49 /* FullFormMeaningsView.swift */,
+				AE4DEEC4289E64C800134902 /* AcronymMeaningRowView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AE9B390C289E50B500194E49 = {
+			isa = PBXGroup;
+			children = (
+				AE4DEEC8289E796500134902 /* Acronyms-Dictionary-Info.plist */,
+				AE9B3917289E50B500194E49 /* Acronyms Dictionary */,
+				AE9B3928289E50B700194E49 /* Acronyms DictionaryTests */,
+				AE9B3916289E50B500194E49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE9B3916289E50B500194E49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE9B3915289E50B500194E49 /* Acronyms Dictionary.app */,
+				AE9B3925289E50B700194E49 /* Acronyms DictionaryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE9B3917289E50B500194E49 /* Acronyms Dictionary */ = {
+			isa = PBXGroup;
+			children = (
+				AE4DEEB2289E542700134902 /* MVVM */,
+				AE4DEEB1289E53DF00134902 /* Common */,
+				AE4DEEB0289E53CA00134902 /* Networking */,
+				AE4DEEAF289E536200134902 /* Supporting Files */,
+			);
+			path = "Acronyms Dictionary";
+			sourceTree = "<group>";
+		};
+		AE9B391E289E50B700194E49 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AE9B391F289E50B700194E49 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AE9B3928289E50B700194E49 /* Acronyms DictionaryTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE4DEECD289EAA9D00134902 /* AcronymsMockResponse.json */,
+				AE9B3929289E50B700194E49 /* Acronyms_DictionaryTests.swift */,
+			);
+			path = "Acronyms DictionaryTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE9B3914289E50B500194E49 /* Acronyms Dictionary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE9B3939289E50B700194E49 /* Build configuration list for PBXNativeTarget "Acronyms Dictionary" */;
+			buildPhases = (
+				AE9B3911289E50B500194E49 /* Sources */,
+				AE9B3912289E50B500194E49 /* Frameworks */,
+				AE9B3913289E50B500194E49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Acronyms Dictionary";
+			productName = "Acronyms Dictionary";
+			productReference = AE9B3915289E50B500194E49 /* Acronyms Dictionary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE9B3924289E50B700194E49 /* Acronyms DictionaryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE9B393C289E50B700194E49 /* Build configuration list for PBXNativeTarget "Acronyms DictionaryTests" */;
+			buildPhases = (
+				AE9B3921289E50B700194E49 /* Sources */,
+				AE9B3922289E50B700194E49 /* Frameworks */,
+				AE9B3923289E50B700194E49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE9B3927289E50B700194E49 /* PBXTargetDependency */,
+			);
+			name = "Acronyms DictionaryTests";
+			productName = "Acronyms DictionaryTests";
+			productReference = AE9B3925289E50B700194E49 /* Acronyms DictionaryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE9B390D289E50B500194E49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					AE9B3914289E50B500194E49 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					AE9B3924289E50B700194E49 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = AE9B3914289E50B500194E49;
+					};
+				};
+			};
+			buildConfigurationList = AE9B3910289E50B500194E49 /* Build configuration list for PBXProject "Acronyms Dictionary" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE9B390C289E50B500194E49;
+			productRefGroup = AE9B3916289E50B500194E49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE9B3914289E50B500194E49 /* Acronyms Dictionary */,
+				AE9B3924289E50B700194E49 /* Acronyms DictionaryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE9B3913289E50B500194E49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE9B3920289E50B700194E49 /* Preview Assets.xcassets in Resources */,
+				AE9B391D289E50B700194E49 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE9B3923289E50B700194E49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE4DEED0289EAECD00134902 /* AcronymsMockResponse.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE9B3911289E50B500194E49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE4DEEBB289E565100134902 /* AcronymsDataAPI.swift in Sources */,
+				AE4DEEC1289E603600134902 /* AcronymDataError.swift in Sources */,
+				AE9B391B289E50B500194E49 /* FullFormMeaningsView.swift in Sources */,
+				AE4DEEBF289E5FCF00134902 /* Parser.swift in Sources */,
+				AE4DEEBD289E59F400134902 /* FetchAcronymsModel.swift in Sources */,
+				AE9B3919289E50B500194E49 /* Acronyms_DictionaryApp.swift in Sources */,
+				AE4DEEC7289E6BFA00134902 /* FetchAcronymsRowViewModel.swift in Sources */,
+				AE4DEED2289EB33700134902 /* NetworkState.swift in Sources */,
+				AE4DEEB8289E54DC00134902 /* AcronymsDataFetcher.swift in Sources */,
+				AE4DEEC3289E627700134902 /* FullFormMeaningsViewModel.swift in Sources */,
+				AE4DEEC5289E64C800134902 /* AcronymMeaningRowView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE9B3921289E50B700194E49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE4DEECC289E9CE400134902 /* AcronymDataError.swift in Sources */,
+				AE4DEECB289E9CE100134902 /* AcronymsDataAPI.swift in Sources */,
+				AE4DEEC9289E9CD100134902 /* FetchAcronymsModel.swift in Sources */,
+				AE9B392A289E50B700194E49 /* Acronyms_DictionaryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE9B3927289E50B700194E49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE9B3914289E50B500194E49 /* Acronyms Dictionary */;
+			targetProxy = AE9B3926289E50B700194E49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AE9B3937289E50B700194E49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE9B3938289E50B700194E49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE9B393A289E50B700194E49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Acronyms Dictionary/Supporting Files/Preview Content/Preview Assets.xcassets\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Acronyms-Dictionary-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mac.Acronyms-Dictionary";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE9B393B289E50B700194E49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Acronyms Dictionary/Supporting Files/Preview Content/Preview Assets.xcassets\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Acronyms-Dictionary-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mac.Acronyms-Dictionary";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AE9B393D289E50B700194E49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mac.Acronyms-DictionaryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Acronyms Dictionary.app/Acronyms Dictionary";
+			};
+			name = Debug;
+		};
+		AE9B393E289E50B700194E49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mac.Acronyms-DictionaryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Acronyms Dictionary.app/Acronyms Dictionary";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE9B3910289E50B500194E49 /* Build configuration list for PBXProject "Acronyms Dictionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE9B3937289E50B700194E49 /* Debug */,
+				AE9B3938289E50B700194E49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE9B3939289E50B700194E49 /* Build configuration list for PBXNativeTarget "Acronyms Dictionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE9B393A289E50B700194E49 /* Debug */,
+				AE9B393B289E50B700194E49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE9B393C289E50B700194E49 /* Build configuration list for PBXNativeTarget "Acronyms DictionaryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE9B393D289E50B700194E49 /* Debug */,
+				AE9B393E289E50B700194E49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE9B390D289E50B500194E49 /* Project object */;
+}
